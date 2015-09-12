@@ -1,0 +1,277 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+
+<!--
+template for () searches:
+href="javascript:Qr=prompt('prompt text:','');location.href='url_goes_here?item='+escape(Qr)"
+-->
+
+<title>NBA-Warriors-WebSites</title>
+
+<script language="JavaScript">
+function toggleBox(szDivID, iState) { // 1 visible, 0 hidden
+	if(document.layers)	{	 //NN4+
+		 document.layers[szDivID].visibility = iState ? "show" : "hide";
+	}
+	else if(document.getElementById) {	//gecko(NN6) + IE 5+
+		var obj = document.getElementById(szDivID);
+		obj.style.visibility = iState ? "visible" : "hidden";
+	}
+	else if(document.all) {	// IE 4
+		document.all[szDivID].style.visibility = iState ? "visible" : "hidden";
+	}
+}
+</script>
+<style type="text/css">
+body {
+	font-family: bitstream vera sans, verdana, arial, helvetica, sans-serif;
+	color: white;
+	background: black;
+}
+table {font-size: 13px;}
+a {text-decoration: none; color: #ff6666}
+a:visited {color: #99ccff}
+a:active {color: white}
+a:hover {color: white}
+a.parens:hover {color: white}
+a.parens:visited {color: #ffffcc}
+input {font-size: 14px}
+.parens {color: #ffffcc}
+.hidden {
+	font-size: 13px;
+	background: black;
+	border: medium inset;
+	padding: 10px;
+	position:absolute;
+	bottom: 10px;
+	right: 10px;
+	width:190px;
+	height:100px;
+	z-index:99;
+	visibility:hidden;
+}
+#news { margin-bottom: 3px}
+#row2 {}
+#columns {}
+#bottom {}
+</style>
+</head>
+
+
+
+
+
+<body alink="white" bgcolor="black" link="#ff6666" text="white" vlink="#99ccff">
+
+<div id="row2">
+	</div><table border="0" cellpadding="4" cellspacing="0" width="100%">
+
+  <tbody><tr valign="top">
+    <td colspan="2" bgcolor="#660033">
+      <table bgcolor="#660033" border="0" cellpadding="0" cellspacing="0" width="100%">
+        
+        <tbody><tr>
+          <td class="small" colspan="2" align="center">
+           
+          <!-- BOTTOM LEFT -->
+            <a href="http://www.dictionary.com/">Dictionary</a><a class="parens" href="javascript:Qr=prompt('Dictionary keyword:','');location.href='http://www.dictionary.com/cgi-bin/dict.pl?term='+escape(Qr)">()</a>
+            ·
+            <a href="http://www.thesaurus.com/">Thesaurus</a><a class="parens" href="javascript:Qr=prompt('Thesaurus keyword:','');location.href='http://www.thesaurus.com/cgi-bin/search?config=roget&amp;words='+escape(Qr)">()</a>
+            ·
+            <a href="http://www.bartleby.com/64/">Usage</a><a class="parens" href="javascript:Qr=prompt('American Heritage Book of English Usage keyword:','');location.href='http://www.bartleby.com/cgi-bin/texis/webinator/sitesearch?filter=col64&amp;query='+escape(Qr)">()</a>
+          </td>
+          <td class="small" align="right">
+          <!-- BOTTOM RIGHT -->
+            <a href="http://www.reddit.com/r/worldnews/"> Reddit</a> . <a href="http://www.sfgate.com/chronicle/"> Chron</a> · <a href="http://www.redding.com">Redding/SL</a> · <a href="http://www.nytimes.com/">NYT</a> · <a href="http://www.washingtonpost.com/">WashPost</a> · <a href="http://www.sjmercury.com/">Merc</a> · <a href="http://www.sacbee.com/">SacBee</a> · <a href="http://www.latimes.com">LA Times</a> · <a href="http://www.npr.com">NPR</a>
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+
+  <tr>
+<!-- begin row2 -->
+</tr></tbody></table><table cellpadding="2" cellspacing="3" width="100%">
+		<tbody><tr>
+			<!-- GOOGLE -->
+<script language="JavaScript">
+<!--
+function doGoogle(frm){
+	for(i=0; i<frm.which_google.length; i++){
+		if(frm.which_google[i].checked == true){
+			var foo = frm.which_google[i].value;
+		}
+	}
+	switch(foo){
+		case "images" :
+			frm.action="http://images.google.com/images";
+			break;
+		case "groups" :
+			frm.lr.value="lang_en";
+			frm.action="http://groups.google.com/groups";
+			break;
+		case "news" :
+			frm.action="http://news.google.com/news";
+			break;
+		case "dir" :
+			frm.cat.value="gwd/Top";
+			break;
+	}
+return true
+}
+// -->
+</script>
+			<form method="get" action="http://www.google.com/search" name="google" onSubmit="doGoogle(this)">
+			<td width="25%" valign="top" bgcolor="#000044">
+				<a href="http://www.google.com/">G<u>O</u>OGLE</a><br />
+				<input size="15" maxlength="100" name="q" accesskey="o"><br />
+				<input type="radio" name="which_google" value="web" accesskey="w" checked="checked" /><u>w</u>eb
+				<input type="radio" name="which_google" value="groups" accesskey="u" />gro<u>u</u>ps
+				<input type="radio" name="which_google" value="images" accesskey="i" /><u>i</u>mages
+				<input type="radio" name="which_google" value="news" accesskey="n" /><u>n</u>ews
+				<input type="radio" name="which_google" value="dir" accesskey="d" /><u>d</u>ir
+				<input type="hidden" name="num" value="100">
+				<input type="hidden" name="lr" value="" />
+				<input type="hidden" name="cat" value="" />
+			</td>
+			</form>
+			
+
+			<!-- YAHOO -->
+			<form method="get" action="http://search.yahoo.com/bin/search"></form>
+			<td bgcolor="#000066" width="25%">
+				<a href="http://www.yahoo.com/"><u>Y</u>AHOO!</a><br>
+				<input size="15" name="p" accesskey="y">
+				<br><a href="http://www.yahoo.com/r/yp">Yellow Pages</a> · <a href="http://docs.yahoo.com/picks/">Picks</a> · <a href="http://www.yahoo.com/r/ys">Sports</a> · <a href="http://weather.yahoo.com/forecast/USCA0987_f.html">Weather</a> · <a href="http://astrology.yahoo.com/astrology/">Horoscopes</a> · <a href="http://dailynews.yahoo.com/headlines/ts/">Reuters</a> · <a href="http://dailynews.yahoo.com/h/od/nm/">Oddly Enough</a>
+			</td>
+			
+	
+
+			<td align="center" bgcolor="#000066">
+				<a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=96003">wunderground.com-REDDING</a><a class="parens" href="javascript:Qr=prompt('AccuWeather forecast for:','');location.href='http://www.accuweather.com/adcbin/local_index?thisZip='+escape(Qr)">()<br></a><a href="http://www.accuweather.com/adcbin/local_index?thisZip=94107">SF</a> · <a href="http://www.accuweather.com/adcbin/local_index?thisZip=94606">OAK</a> · <a href="http://www.accuweather.com/adcbin/local_index?thisZip=94720">B</a> · <a href="http://www.accuweather.com/adcbin/local_index.asp?nav=home&amp;thisZip=95060">SC</a>
+			</td>
+		</tr>
+	</tbody></table>
+
+<!-- end row2 -->
+
+  
+
+  <!-- HERE IS THE ALL-IMPORTANT ROWSPAN -->
+
+  
+  <table width="100%">
+    <tbody><tr>
+      <td align="center" valign="top">
+        <span class="small">
+  
+
+	
+	</span></td>
+      <td align="center" valign="top"><span class="small">
+	
+        
+        <hr width="10%">
+		<hr width="10%">
+		<hr width="10%">
+
+	
+		NBA/WARRIORS WEBSITES:<br>
+
+    <a href="http://blogs.mercurynews.com/warriors" target="_blank">FastbreakBlog</a><br>
+	<a href="http://hoopshype.com/rumors/" target="_blank">Hoopshype.com/Rumors</a><br>
+	<a href="http://fansided.com/category/nba" target="_blank">Fansided/NBA</a><br>
+	<a href="http://grantland.com/the-triangle" target="_blank">Grantland.com/the-triangle</a><br>
+	<a href="http://espn.go.com/nba" target="_blank">ESPN/NBA</a><br>
+	<a href="http://www.nba.com" target="_blank">NBA.COM</a><br>
+	<a href="http://www.nba.com/warriors" target="_blank">NBA/Warriors</a><br>
+	<a href="http://www.goldenstateofmind.com" target="_blank">Goldenstateofmind</a><br>
+	<a href="http://www.sbnation.com/nba" target="_blank">SBNation/NBA</a><br>
+	<a href="http://www.82games.com" target="_blank">82Games</a><br>
+	<a href="http://popcornmachine.net" target="_blank">PopCornMahine</a><br>
+	<a href="http://www.boxscoregeeks.com" target="_blank">Boxscoregeeks</a><br>
+	<a href="http://www.draftxpress.com" target="_blank">Draftexpress</a><br>
+	<a href="http://basketball.realgm.com" target="_blank">RealGM</a><br>
+	<a href="http://nbaminer.com" target="_blank">NBAMINER</a><br><br>
+	
+	
+	    </span>
+			</td><td align="center" valign="top"><span class="small">
+			
+			<hr width="10%">
+			<hr width="10%">
+			<hr width="10%">
+	
+	
+		NBA/WARRIORS WEBSITES:<br>
+		
+		
+	<a href="http://www.basketball-reference.com/" target="_blank">BasketBall-Reference</a><br>
+	<a href="http://nbasavant.com" target="_blank">NBASavant</a><br>
+	<a href="http://sports.yahoo.com/blogs/nba-ball-dont-lie" target="_blank">NBA-Ball-Don't-Lie</a><br>
+	<a href="http://bleacherreport.com/nba" target="_blank">Bleacherreport-NBA</a><br>
+	<a href="http://bleacherreport.com/golden-state-warriors" target="_blank">bleacherreport.com/Warriors</a><br>
+	<a href="http://www.csnbayarea.com/warriors" target="_blank">CSNbayarea/Warriors/</a><br>
+	<a href="http://www.mercurynews.com/warriors" target="_blank">Mercurynews/Warriors</a><br>
+	<a href="http://www.ibabuzz.com/warriors" target="_blank">Ibabuzz/Warriors</a><br>
+	<a href="http://m.sfgate.com/warriors" target="_blank">SFGate/Warriors</a><br>
+	<a href="http://www.si.com/nba/team/golden-state-warriors" target="_blank">Sports-Illustrated</a><br>
+	<a href="http://www.hoopsaddict.com" target="_blank">Hoopsaddict</a><br>
+	<a href="http://www.thehoopdoctors.com" target="_blank">THE-HOOPSDOCTORS</a><br>
+	<a href="http://www.rantsports.com/nba" target="_blank">RantSports/NBA</a><br>
+	<a href="http://www.hoopsrumors.com" target="_blank">Hoopsrumors<br></a><br><br>
+	
+	
+	</span></td>
+	
+      <td align="center" valign="top"><span class="small">
+	  
+	  <hr width="10%">
+	  <hr width="10%">
+	  <hr width="10%">
+
+		More NBA Sites:<br>
+
+        
+        
+	<a href="http://sports.yahoo.com/author/marc-j-spears" target="_blank">marc-j-spears</a><br>
+	<a href="http://search.espn.go.com/marc-stein" target="_blank">Marc-Stein</a><br>
+	<a href="http://wagesofwins.com" target="_blank">WagesofWin</a><br>
+	<a href="https://soundcloud.com/warriors" target="_blank">SoundCloud</a><br>
+	<a href="http://www.cbafaq.com/salarycap" target="_blank">CBAFAQ/Salarycap</a><br>
+	<a href="http://hoopshype.com/salaries/golden_state_warriors" target="_blank">HOOPSHYPE-Warriors-Salaries</a><br>
+	<a href="http://sportspyder.com/teams/golden-state-warriors/news" target="_blank">Sportspyder-Warriors-News</a><br>
+	<a href="http://official.nba.com" target="_blank">NBA-Official</a><br>
+	<a href="http://espn.go.com/nba/tradeMachine" target="_blank">ESPN-TradeMachine<br>
+	<a href="http://www.nbadraft.net" target="_blank">NBADRAFT</a><br>
+	<a href="http://www.bayareasportsguy.com/category/national-basketball-association-nba/golden-state-warriors-warriors/" target="_blank">BASG/Warriors</a><br>
+	<a href="http://www.thescore.com/nba/teams/16-golden-state-warriors/news" target="_blank">TheScore-Warriors</a><br>
+	<a href="http://probasketballtalk.nbcsports.com" target="_blank">Probasketballtalk</a><br>
+	<a href="http://www.insidehoops.com/blog" target="_blank">Insidehoops</a><br>
+	<a href="https://basketballrecruiting.rivals.com/" target="_blank">Basketballrecuiting-rivals</a><br>
+	<br><br>
+
+        
+
+                
+	</span></td>
+    </tr>
+  </tbody></table>
+
+  
+  
+
+  
+   
+        
+      
+    
+  
+
+
+
+
+
+
+
+</body></html>
